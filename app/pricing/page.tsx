@@ -1,6 +1,6 @@
 "use client"
 import { Button, Flex, Box, Stack, HStack, Icon, Heading, Text, StackProps } from '@chakra-ui/react'
-import CheckIcon from '../icons/page'
+import { CheckIcon } from '../iconians/page'
 
 export const ListItems = (props: StackProps) => {
     const { children, ...rest } = props;

@@ -1,5 +1,6 @@
 "use client";
 import { Box,Flex,Text,Heading,Button } from '@chakra-ui/react'
+import  Features from '@/app/features';
 import Pricing from '../pricing/page';
  
 export default function Header() {
@@ -17,6 +18,7 @@ export default function Header() {
         </Box>
         </Box>
         <Pricing /> 
+        {/* <Features /> */}
         </>
   )
 }
